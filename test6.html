@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8" >
+    <title>My Sixth Test</title>
+    </head>
+    <body>
+        <main>
+            <form method="GET">
+                <div class="token">
+                <input type="hidden" value="b92f1fc2fce391ad7af633723afd3055" name="token">
+                    </div>
+                    <div class="email">
+                    <label>E-Mail   </label>
+                    <input type="email" value="o@oos.sa" readonly name="email">
+                </div>
+            <br>
+                <div class="username">
+                    <label>Username</label>
+                    <input type="text" autofocus required minlength="5" maxlength="20" name="username">
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+                    <div class="Skills">
+                        <h3>Skills</h3>
+                    <div>
+                        <input  id="probslv" type="checkbox" name="Skills" value="Probleme Solving" checked>
+                        <label for="probslv">Probleme Solving</label>
+                    </div>
+                    <div>
+                        <input id="logtin" type="checkbox" name="Skills" value="Logical Thinking">
+                        <label for="logtin">Logical thinking</label>
+                    </div>
+                    <div>
+                        <input id="adv_srch" type="checkbox" name="Skills" value="Advenced Search">
+                        <label for="adv_srch">Advenced Search</label>
+                    </div>
+                    <div>
+                        <input id="Analysis" name="Skills" type="checkbox" value="Analysis">
+                        <label for="Analysis">Analysis</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="plan" name="Skills" value="Planning">
+                        <label for="plan">Planning</label>
+                    </div>
+                    </div>
+                    <hr>
+                    <div class="Jobs">
+                        <h3>Jobs</h3>
+                    <div>
+                        <input type="radio" id="frontdev" value="front-dev" name="job">
+                        <label for="frontdev">Front-End Developer</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="backdev" value="back-dev" name="job">
+                        <label for="backdev">Back-End Developer</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="bus_an" value="business-analyst" name="job" checked>
+                        <label for="bus_an">Business Analyst</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="proj-man" value="project-manager" name="job">
+                        <label for="proj-man">Project Manager</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="scru-mast" value="scrum-master" name="job">
+                        <label for="scru-mast">Scrum Master</label>
+                    </div>
+                    </div>
+                <br>
+                <hr>
+                <br>
+                <div>
+                    <label>Choose Book:</label>
+                    <select name="Book" id="book">
+                        <optgroup label="PHP">
+                            <option value="php-v5">V5.0</option>
+                            <option value="php-v7">V7.0</option>
+                            <option value="php-v8">V8.0</option>
+                        </optgroup>
+                        <optgroup label="Python">
+                            <option value="py-v2">V2.0</option>
+                            <option value="py-v3">V3.0</option>
+                            <option value="py-v3.9">V3.9</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <hr>
+                <div>
+                    <textarea name="brief" id="txtarea" placeholder="Write Here Why You Want To Learn Programming" cols="70" rows="10"></textarea>
+                </div>
+                <input type="submit" value="Send">
+                <input type="reset" value="Empty">
+            </form>
+        </main>
+    </body>
+
+</html>
